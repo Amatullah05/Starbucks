@@ -1,0 +1,682 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main-container{
+    width: 100%;
+    height:570px;
+    border-bottom: 2px solid black;
+}
+.main-container .navbar{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 9px 2px rgb(94, 94, 94);
+}
+.logo-section{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-section img{
+    width: 83px;
+}
+.logo-section ul{
+    width: 67%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-section ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+                            /*-------------------------------------------------------*/
+.login-section{
+    width: 35%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-section ul{
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login-section ul button  {
+    width: 37%;
+    height: 35px;
+    /* background-color: aquamarine; */
+    border-radius: 17px;
+    border: 1px solid black;
+}
+.login-section ul #join-btn{
+    background-color: black;
+    color: white;
+}
+.login-section span{
+    width: 150px;
+    font-size: 22px;
+}
+.login-section a{
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+}
+                /*------------------------navbar end-----------------------------*/
+.container1{
+    width: 100%;
+    height: 450px;
+    margin-top: 35px;
+    display: flex;
+}
+
+.main-container .container1 .img-part{
+    width: 50%;
+}
+.container1 .img-part img{
+    width: 100%;
+    height: 366px;
+}
+.main-container .container1 .text-part{
+    width: 50%;
+    height: 366px;
+    /* height: auto; */
+    background-color: rgb(11, 104, 62);
+    padding-block: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container1 .text-part h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    /* padding-top: 10px; */
+}
+.container1 .text-part p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 28px;
+    line-height: 32px;
+}
+.container1 button{
+    width: 110px;
+    height: 36px;
+    border-radius: 17px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    
+}   
+/*------------------------------1st end----------------------------------------------------*/
+.container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top:0px ;
+}
+.container2 .text-part{
+    width: 50%;
+    height: 500px;
+    /* height: auto; */
+    background-color: rgb(174, 1, 174);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container2 .text-part h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 58px;
+    text-align: center;
+    color: white;
+}
+.container2 .text-part p{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-block:20px ;
+}
+.container2 .text-part button{
+    width: 150px;
+    height: 45px;
+    border-radius: 27px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.container2 .img-part{
+    width: 50%;
+    height: auto;
+}
+.container2 .img-part img{
+    width: 100%;
+    height: 500px;
+}
+/* -------------------------------------2nd end------------------------------------------------ */
+
+.container3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top:40px ;
+    /* border: 2px solid black; */
+}
+.container3 .img-part{
+    width: 50%;
+    height: auto;
+}
+.container3 .img-part img{
+    width: 100%;
+    height: auto
+}
+.container3 .text-part{
+    width: 50%;
+    height: 365px;
+    /* height: auto; */
+    background-color: #d3eae2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top:10px; */
+}
+.container3 .text-part h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(34, 33, 33);
+    letter-spacing: 1px;
+}
+.container3 .text-part p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+    color:  rgb(34, 33, 33);;
+    /* position: relative;
+    top: 25px;
+    bottom: 25px; */
+}
+.container3 .text-part button{
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 26px;
+    border: 1px solid  rgb(34, 33, 33); 
+    color:rgb(34, 33, 33);
+    background-color: transparent;
+    margin-top: 25px;
+}
+/*-------------------------------------3rd end-----------------------------------*/
+
+.container4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.container4 .text-part{
+    width: 50%;
+    height: 365px;
+    background-color: #97D8B1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-block: 70px; */
+}
+.container4 .text-part h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #293726;
+}
+.container4 .text-part p{
+    font-size: 18px;
+    margin-block: 29px;
+    text-align: center;
+    color: #303c2e;
+}
+.container4 .text-part button{
+    width: 140px;
+    height: 40px;
+    border-radius: 26px;
+    border: 1px solid #293726;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container4 .img-part{
+    width: 50%;
+    height: auto;
+}
+.container4 .img-part img{
+    width: 100%;
+    height: auto;
+}
+/*-----------------------------------4th end----------------------------------------*/
+.para{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+/*-------------------------------------para end-----------------------------------*/
+.links{
+    width: 100%;
+    height: 500px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-inline-start: 22px;
+    padding-block: 25px;
+    box-shadow: 7px 0px 9px 2px rgb(94, 93, 93) ;
+}
+.links ul{
+    width: 30%;
+    height: 250px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.links ul h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.links ul li{
+    width: 100%;
+}
+.links ul li a{
+    font-size: 17px;
+    color: #828582;
+    text-decoration: none;
+}
+.links ul:nth-child(2){
+    padding-bottom: 8px;
+}
+.links ul:nth-child(3){
+    padding-bottom: 95px;
+    /* background-color: aqua; */
+}
+.links ul:nth-child(4){
+    padding-bottom: 65px;
+    /* background-color: aqua; */
+}
+.links ul:nth-child(5){
+    padding-bottom: 35px;
+}
+/*-----------------------------------links-part end------------------------------------- */
+
+.footer{
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+    padding-inline: 25px;
+}
+.footer .icon {
+    width: 28%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 30px;
+}
+.footer .links2 {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+.footer .links2 a{
+    text-decoration: none;
+    color: black; 
+}
+.footer p{
+    font-size: 14px;
+    color:rgb(112, 111, 111);
+    margin-top: 12px;
+}
+
+
+                        /*--------------------RESPONSIVE CSS CODE-----------------------------------*/
+
+@media (max-width: 768px) {
+    .main-container{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 95px;
+    }
+    .logo-section{
+        justify-content: flex-start;
+        padding-inline-start: 30px;
+    }
+    .logo-section ul{
+        display: none;
+    }
+    .login-section{
+        width: 50%;
+        /* background-color: aquamarine; */
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+    .login-section ul button{
+        width: 170px;
+    }
+    .login-section ul #join-btn{
+        margin-left: 10px;
+    }
+    .login-section span{
+        display: none;
+    }
+    .main-container .container1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-container .container1 .img-part{
+        width: 100%;
+        height: 370px;
+    }
+    .main-container .container1 .text-part{
+        width: 100%;
+        height: 350px;
+    }
+    .container1 .text-part h2{
+        font-size: 35px;
+    }
+    .container1 .text-part p{
+        font-size: 20px;
+    }
+    .container1 button{
+        width: 150px;
+        /* height: 90%; */
+        font-size: 25px;
+    }
+    .container2{
+        padding-top: 25px;
+    }
+    .container2 .text-part p br{
+        display: none;
+    }
+    .container3{
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+    }
+    .container3 .text-part{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .container3 .img-part {
+        width: 50%;
+        height: 300px;
+        background-color: #d3eae2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container3 .img-part img{
+        width: 350px;
+    }
+    .container4{
+        width: 100%;
+        height: auto;
+    }
+    .container4 .text-part{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        padding-inline: 20px;
+    }
+    .container4 .text-part p br{
+        display: none;
+        
+    }
+    .container4 .img-part {
+        width: 50%;
+        height: 300px;
+        background-color: #97D8B1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container4 .img-part img{
+        width: 350px;
+    }
+    .para{
+        font-size: 16px;
+        padding-block: 40px;
+        padding-inline: 38px;
+    }
+    .para p br{
+        display: none;
+    }
+    .links{
+        width: 100%;
+        height: auto;
+    }
+    .links ul{
+        width: 33%;
+    }
+    .links ul h4{
+        font-size: 19px;
+    }
+    .links ul li a{
+        font-size: 16px;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-inline: 25px;
+    }
+    .footer .icon{
+        width: 40%;
+        height: auto;
+        font-size: 29px;
+    }
+    
+}
+
+@media (max-width:480px) {
+    .main-container{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        width: 100%;
+        height: 95px;
+    }
+    .logo-section{
+        justify-content: flex-start;
+        padding-inline-start: 30px;
+    }
+    .logo-section ul{
+        display: none;
+    }
+    .login-section{
+        width: 50%;
+        /* background-color: aquamarine; */
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+    .login-section ul button{
+        width: 170px;
+        font-size: 10px;
+    }
+    .login-section ul #join-btn{
+        margin-left: 10px;
+    }
+    .login-section span{
+        display: none;
+    }
+    .main-container .container1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-container .container1 .img-part{
+        width: 100%;
+        height: 366px;
+    }
+    .main-container .container1 .text-part{
+        width: 100%;
+        height: 350px;
+    }
+    .container1 .text-part h2{
+        font-size: 25px;
+    }
+    .container1 .text-part p{
+        font-size: 17px;
+    }
+    .container1 .text-part p br{
+        display: none;
+    }
+    .container2{
+        width: 100%;
+        height: auto;
+        /* display: flex; */
+        flex-direction: column-reverse;
+        /* flex-direction: column; */
+    }
+    .container2 .text-part{
+        width: 100%;
+        /* height: 500px; */
+        height: auto;
+        padding-block: 40px;
+    }
+    .container2 .text-part h1{
+        font-size: 39px;
+        line-height: 40px;
+    }
+    .container2 .text-part p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .container2 .img-part{
+        width: 100%;
+        height: 500px;
+    }
+    .container3{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .container3 .text-part{
+        width: 100%;
+    }
+    .container3 .img-part{
+        width: 100%;
+    }
+    .container3 .img-part img{
+        width: 100%;
+    }
+
+    .container4{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .container4 .text-part{
+        width: 100%;
+        height: 300px;
+    }
+    .container4 .text-part p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .container4 .img-part{
+        width: 100%;
+    }
+    .container4 .img-part img{
+        width: 100%;
+        height: 320px;
+    }
+    .para{
+        font-size: 12px;
+        padding-inline: 20px;
+    }
+    .para p br{
+        display: none;
+    }
+    .links{
+        width: 100%;
+        height: auto;
+    }
+    .links ul{
+        width: 33%;
+    }
+    .links ul h4{
+        font-size: 12px;
+    }
+    .links ul li a{
+        font-size: 9px;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-inline: 25px;
+    }
+    .footer .icon{
+        width: 50%;
+        height: auto;
+        font-size: 22px;
+    }
+    .footer .links2 {
+        width: 70%;
+        height: 300px;
+        font-size: 13px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+}
