@@ -64,6 +64,12 @@
     background-color: black;
     color: white;
 }
+.login-section ul button:hover{
+    transform: scale(0.8);
+}
+.login-section ul #join-btn:hover{
+    transform: scale(0.8);
+}
 .login-section span{
     width: 150px;
     font-size: 22px;
